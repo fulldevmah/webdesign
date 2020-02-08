@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #40514E;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 5.92rem;
+  margin: 30px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 8%;
+  margin: 100px auto 100px auto;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 70%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.skill-row {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dating-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img {
+  width: 20%;
+}
+
+.contact-button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #c2fff9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #c2fff9;
+  box-shadow: inset 0px 1px 0px 0px #c2fff9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #16e0d9), color-stop(1, #00877a));
+  background: -moz-linear-gradient(center top, #16e0d9 5%, #00877a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#16e0d9', endColorstr='#00877a');
+  background-color: #16e0d9;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-left-radius: 20px;
+  text-indent: 0;
+  border: 1px solid #1eccc0;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 65px;
+  line-height: 65px;
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00877a), color-stop(1, #16e0d9));
+  background: -moz-linear-gradient(center top, #00877a 5%, #16e0d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00877a', endColorstr='#16e0d9');
+  background-color: #00877a;
+}
+
+.contact-button:active {
+  position: relative;
+  top: 1px;
+}
